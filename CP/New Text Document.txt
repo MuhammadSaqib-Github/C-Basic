@@ -1,0 +1,37 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	int a, b;
+	cout << "Enter nmbers : \n " ;
+		cin >> a >> b;
+	char ch;
+	cout << "Preas 1 for Addition \n";
+	cout << "Preas 2 for Subtraction \n";
+	cout << "Preas 3 for Multiplication \n";
+	cout << "Preas 4 for  Division \n";
+	cout << "Preas 5 for  Remainder \n";
+	cout << "Enter Character Sir:" << endl;
+	cin >> ch;
+	switch (ch)
+		case 1: 
+			cout << " Sum is " << a + b; 
+	break;
+		case 2:
+			cout << " Sum is " << a - b; 
+			break;
+		case 3:
+			cout << " Sum is " << a * b; 
+			break;
+		case 4: 
+			cout << " Sum is " << a / b;
+			break;
+		case 5:
+			cout << " Sum is " << a % b; 
+			break;
+		default: 
+			cout << "invalid character";
+	_getch();
+
+}
